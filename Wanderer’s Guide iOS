@@ -1,0 +1,218 @@
+#strSection {
+    padding: 1rem 0 !important;
+}
+
+#strSection div.is-size-7 {
+    font-size: 0!important;
+    line-height: 0.5rem;
+}
+
+#strSection div.is-size-7:after {
+    font-size: 1rem!important;
+    content:"STR";
+    font-weight: 675;
+}
+
+#dexSection {
+    padding: 1rem 0 !important;
+}
+
+#dexSection div.is-size-7 {
+    font-size: 0!important;
+    line-height: 0.5rem;
+}
+
+#dexSection div.is-size-7:after {
+    font-size: 1rem!important;
+    content:"DEX";
+    font-weight: 675;
+}
+
+#conSection {
+    padding: 1rem 0 !important;
+}
+
+#conSection div.is-size-7 {
+    font-size: 0!important;
+    line-height: 0.5rem;
+}
+
+#conSection div.is-size-7:after {
+    font-size: 1rem!important;
+    content:"CON";
+    font-weight: 675;
+}
+
+#intSection {
+    padding: 1rem 0 !important;
+}
+
+#intSection div.is-size-7 {
+    font-size: 0!important;
+    line-height: 0.5rem;
+}
+
+#intSection div.is-size-7:after {
+    font-size: 1rem!important;
+    content:"INT";
+    font-weight: 675;
+}
+
+#wisSection {
+    padding: 1rem 0 !important;
+}
+
+#wisSection div.is-size-7 {
+    font-size: 0!important;
+    line-height: 0.5rem;
+}
+
+#wisSection div.is-size-7:after {
+    font-size: 1rem!important;
+    content:"WIS";
+    font-weight: 675;
+}
+
+#chaSection {
+    padding: 1rem 0 !important;
+}
+
+#chaSection div.is-size-7 {
+    font-size: 0!important;
+    line-height: 0.5rem;
+}
+
+#chaSection div.is-size-7:after {
+    font-size: 1rem!important;
+    content:"CHA";
+    font-weight: 675;
+}
+
+p#acNumber {
+    position: relative;
+    top: -10px;
+}
+
+p#shieldBonus {
+    position: relative;
+    top: -10px;
+}
+
+p#shieldText {
+    position: relative;
+    top: -0px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    
+p#shieldText {
+    top: -5px !important;
+}
+p#shieldBonus {
+    top: -15px !important;
+}
+#actionTabContent>.columns.is-mobile>.column.is-1 {
+    min-width: 40px;
+}
+
+#tabContent>#stateNumberOfActions~.columns.is-mobile>.column.is-1~.column {
+    position: relative;
+    top: 35px;
+    right: 48px;
+}
+
+#tabContent>#stateNumberOfActions~.columns.is-mobile {
+    height: 80px;
+}
+    
+.tabs li a {
+    width: 130px;
+}
+
+.columns.is-mobile>.column.is-4 {
+    min-width: 155px;
+}
+
+.columns.is-mobile>.column.is-3 {
+    min-width: 80px;
+}
+
+#tabContent>.columns.is-mobile>.column.is-4~.is-1~.is-1 {
+    visibility: hidden;
+}
+
+#tabContent>.columns.is-mobile>.column.is-4~.is-1 p strong {
+    font-size: 0px;
+}
+
+#tabContent>.columns.is-mobile>.column.is-4~.is-1 p strong:after {
+    font-size: 15px;
+    content:"Atk";
+}
+
+#tabContent>.columns.is-mobile>.column.is-4~.is-3 p strong {
+    font-size: 0px;
+}
+
+#tabContent>.columns.is-mobile>.column.is-4~.is-3 p strong:after {
+    font-size: 15px;
+    content:"Dmg";
+}
+
+#tabContent>.columns.is-mobile:first-child >.column:not(.pt-2)>p {
+    height:60px;
+    position: relative;
+    top: 30px;
+}
+
+#spellsTabContent .column.pb-0:not(:first-child) {
+    padding: 0.75rem 0 !important;
+}
+
+
+#spellsCoreContent .column.is-3-mobile {
+    min-width: 40px;
+}
+    
+p#bulkMax {
+    top: calc(8% + 20px);
+    left: -65px;
+    position: relative;
+    white-space: nowrap;
+    width: 0px;
+}
+
+p#bulkTotal {
+    top: 8%;
+    position: relative;
+    min-width: 56px;
+}
+
+#inventoryContent .is-6 {
+    min-width: 260px;
+}
+
+#inventoryContent .is-1 {
+    max-width: 40px;
+}
+
+#tabContent .tile.is-child.is-1 {
+    max-width: 30px;
+}
+
+.tile.is-child.is-6 sup {
+    top: 0px;
+    white-space: nowrap;
+}
+
+}
+
+#spellsTabContent {
+    padding-top:10px;
+    
+}
+
+#featsContent .pl-3 {
+    min-width: 240px;
+}
